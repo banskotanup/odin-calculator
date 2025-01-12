@@ -1,0 +1,154 @@
+:root{
+    background-color: #0b0a2c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Playfair Display", serif;
+}
+
+.heading{
+    text-align: center;
+    margin-right: 20px;
+}
+
+.container{
+    margin-top: 10px;
+}
+
+.display{
+    display: flex;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.disp_fset{
+    height: 100%;
+    width: 34.5%;
+    margin-left: 31%;
+    margin-bottom: 20px;
+}
+
+
+.rows_fset{
+    height: 100%;
+    width: 29%;
+    margin-left: 31%;
+    margin-bottom: 20px;
+}
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.ac{
+    margin: 20px;
+    padding: 5px;
+}
+
+.per{
+    margin: 20px;
+    padding: 5px;
+}
+
+.backspace{
+    margin: 20px;
+    padding: 5px;
+}
+
+.divide{
+    margin: 20px;
+    padding: 5px;
+}
+
+.second-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.seven, .eight, .nine, .mul{
+    margin: 20px;
+    padding: 5px;
+}
+
+.third-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.four, .five, .six, .minus{
+    margin: 20px;
+    padding: 5px;
+}
+
+.fourth-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.one, .two, .three, .plus{
+    margin: 20px;
+    padding: 5px;
+}
+
+.fifth-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.double-zero, .zero, .decimal, .equals-to{
+    margin: 20px;
+    padding: 5px;
+}
+
+button{
+    height: 70px;
+    width: 100px;
+    font-size: large;
+    border-radius: 47%;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #double-zero{
+    background-color: #1e1e50;
+    color: #ffffff;
+}
+
+#plus, #minus, #mul, #divide{
+    background-color: #ff7043;
+    color: #ffffff;
+}
+
+#ac, #per, #backspace{
+    background-color: #26c6da;
+    color: black;
+}
+
+#decimal{
+    background-color: #ffca28;
+    color: #0b0a2c;
+}
+
+#equals-to{
+    background-color: #43a047;
+    color: white;
+}
+
+.text{
+    text-align: center;
+    color: antiquewhite;
+    margin-right: 20px;
+}
